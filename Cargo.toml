@@ -1,0 +1,18 @@
+[package]
+name = "rust-mev-engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+alloy = "1.6.1"
+anyhow = "1.0.101"
+async-trait = "0.1.89"
+futures-util = "0.3.31"
+revm = "34.0.0"
+tracing = "0.1.44"
+
+[workspace]
+members = [
+    "crates/state",
+]
+resolver = "2"
