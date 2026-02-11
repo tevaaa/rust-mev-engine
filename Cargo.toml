@@ -8,6 +8,7 @@ alloy = "1.6.1"
 anyhow = "1.0.101"
 async-trait = "0.1.89"
 futures-util = "0.3.31"
+rand = "0.10.0"
 revm = "34.0.0"
 tracing = "0.1.44"
 

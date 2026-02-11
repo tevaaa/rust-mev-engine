@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+alloy = "1.6.3"
+anyhow = "1.0.101"
+dashmap = "6.1.0"
+rand = "0.10.0"

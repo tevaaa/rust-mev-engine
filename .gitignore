@@ -1,1 +1,6 @@
 /target
+Cargo.lock
+.env
+*.pdb
+**/*.rs.bk
+**/mutants.out*/
